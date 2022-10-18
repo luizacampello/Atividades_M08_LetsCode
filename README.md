@@ -1,2 +1,2 @@
-# Desafios_M08_LetsCode
-Acesse https://luizacampello.github.io/Desafios_M08_LetsCode/
+# Atividade M08: Front End Estático
+Acesse https://luizacampello.github.io/Atividades_M08_LetsCode/
