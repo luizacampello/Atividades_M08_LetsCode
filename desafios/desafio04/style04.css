@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2vh;
+    font-family: "Calibri";
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2vh;
+}
+
+.boxVideos{
+	display:flex;
+    height: 90%;
+    flex-direction: row;
+    justify-content: space-evenly;
+	text-align: center;
+	vertical-align: top;
+}
+
+.video{
+    flex-direction: column;
+    padding:2vh;
+}
