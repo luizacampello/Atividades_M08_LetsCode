@@ -20,6 +20,7 @@ header{
     height: 90%;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 	text-align: center;
 	vertical-align: top;
 }
