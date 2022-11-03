@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="..//lmcIcon.ico" >
+    <link rel = "stylesheet" type = "text/css" href = "./styleAtiv04.css" />
+    <link rel = "stylesheet" type = "text/css" href = "./switchStyle.css" />
+    <link rel = "stylesheet" type = "text/css" href = "./timelineStyle.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+   <div class="main">
+
+        <div class="header">
+            <h1>Luiza Motta Campello</h1>
+            <div class ="switchBox">
+                <div class="toggle-switch">
+                    <label>
+                        <input type="checkbox" onclick="darkMode()">
+                        <span class="slider"></span>
+                      </label>
+                    <script src="./scriptAtiv04.js"></script>
+                </div>
+            </div>       
+        </div>
+
+        <div class="aboutBox">
+            <div class ="imgBox">
+                <img class = selfImg src="./img/thatsMe.jpg">
+            </div>
+
+            <ul>
+                <li>
+                    <img class="imageIcon" src = "./img/geology.png" alt = "Simbolo do curso de Geologia"> Formada em Geologia pela Universidade de Brasília(UnB)
+                </li>
+                <li>
+                    <img class="imageIcon" src = "./img/traineeIcon.png" alt = "Simbolo naútico"> Trainee Web Full Stack no Banco Safra
+                </li>
+                <li>
+                    <img class="imageIcon" src = "./img/ada.png" alt = "Ícone da Ada em preto e branco"> Aluna no projeto Top Coders da Let's Code from Ada em Web Full Stack
+                </li>                
+            </ul>
+
+            <div class="toolBox">
+                <div class="back">
+                    <img src = "./img/csharpLogo.png" alt = "Logo do CSharp">
+                    <img src = "./img/pythonLogo.png" alt = "Logo do Python">
+
+                </div>
+
+                <div class="front">
+                    <img src = "./img/htmlLogo.png" alt = "Logo do HTML5">
+                    <img src = "./img/css3Logo.png" alt = "Logo do CSS3">
+                    <img src = "./img/jsLogo.png" alt = "Logo do JavaScript">
+                </div>
+
+            </div>
+
+            <h3>Redes Sociais</h3>          
+            <ul class = "inlineList">
+                <li>
+                    <img class = "imageIcon" src = "./img/github.png" alt = "Ícone do GitHub em preto e branco"> <a href = "https://github.com/luizacampello" target="_blank"> GitHub </a>
+                </li>
+                <li>
+                    <img class = "imageIcon" src = "./img/linkedin.png" alt = "Ícone do LinkedIn em preto e branco"> <a href = "https://www.linkedin.com/in/luizacampello/" target="_blank"> LinkedIn </a>
+                </li>                
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="expBox">
+                <div class="flex-parent">
+
+                    <div class="input-flex-container">
+    
+                        <input type="radio" name="timeline-dot" data-description="1996">
+                        <div class="dot-info" data-description="1996">
+                            <span class="year">1996</span>
+                            <span class="label">Nascimento</span>
+                        </div>
+    
+                        <input type="radio" name="timeline-dot" data-description="2014">
+                        <div class="dot-info" data-description="2014">
+                            <span class="year">2014</span>
+                            <span class="label">Mudança/UnB</span>
+                        </div>
+    
+                        <input type="radio" name="timeline-dot" data-description="2017">
+                        <div class="dot-info" data-description="2017">
+                            <span class="year">2017</span>
+                            <span class="label">Estágio</span>
+                        </div>
+
+                        <input type="radio" name="timeline-dot" data-description="2018">
+                        <div class="dot-info" data-description="2018">
+                            <span class="year">2018</span>
+                            <span class="label">Estágio</span>
+                        </div>
+    
+                        <input type="radio" name="timeline-dot" data-description="2020">
+                        <div class="dot-info" data-description="2020">
+                            <span class="year">2020</span>
+                            <span class="label">Pandemia</span>
+                        </div>
+    
+                        <input type="radio" name="timeline-dot" data-description="2021">
+                        <div class="dot-info" data-description="2021">
+                            <span class="year">2021</span>
+                            <span class="label">Formatura</span>
+                        </div>
+    
+                        <input type="radio" name="timeline-dot" data-description="2022">
+                        <div class="dot-info" data-description="2022">
+                            <span class="year">2022</span>
+                            <span class="label">Programadora!</span>
+                        </div>
+    
+                        <div id="timeline-descriptions-wrapper">
+                            <p data-description="1996">Nasci no dia 19/04 ás 16:48 em Belo Horizonte - Minas Gerais.</p>
+                            <p data-description="2014">Mudança pra Brasília; Entrada na Graduação em Geologia na Universidade de Brasília(UnB).</p>
+                            <p data-description="2017">Início do Estágio no IBAMA. Primeiro contato com Python e R.</p>
+                            <p data-description="2018">Saída do IBAMA; Começo do estágio no Instituto Socioambiental.</p>
+                            <p data-description="2020">Início da Pandemia; Atraso na Formatura; Final do estágio do ISA.</p>
+                            <p data-description="2021">Formatura em Geologia na Universidade de Brasília(UnB).</p>
+                            <p data-description="2022"> 
+                                Entrada no programa Top Coders da Let's Code; Trainee no Banco Safra. 
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+
+
+
+            </div>
+
+            
+
+
+        </div>
+    </div>     
+</body>
+</html>
